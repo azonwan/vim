@@ -108,9 +108,9 @@ set autoindent
 set smartindent
 
 " Use hard tabs
-set tabstop=8
-set noexpandtab
-set shiftwidth=8
+set tabstop=4
+set expandtab
+set shiftwidth=4
 
 " Break long lines
 "set textwidth=78
@@ -248,7 +248,7 @@ Bundle 'bufexplorer.zip'
 Bundle 'echofunc.vim'
 Bundle 'grep.vim'
 Bundle 'snipMate'
-Bundle 'SuperTab-continued.'
+" Bundle 'SuperTab-continued.'
 Bundle 'Tagbar'
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
